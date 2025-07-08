@@ -40,7 +40,7 @@ I aim to master all the core topics required for coding interviews and competiti
 
 ---
 
-## ✅ Legend
+## ✅ Progress
 
 - ✅ Solved — How many problems you've completed  
 - 🔢 Total — Total number of problems in that topic  
@@ -48,7 +48,5 @@ I aim to master all the core topics required for coding interviews and competiti
 
 ---
 
-## 🗂️ Folder Structure
 
-Organize your GitHub repo like this:
 
