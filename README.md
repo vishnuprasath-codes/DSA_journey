@@ -44,7 +44,7 @@ I aim to master all the core topics required for coding interviews and competiti
 
 - ✅ Solved — How many problems you've completed  
 - 🔢 Total — Total number of problems in that topic  
-- 📈 Progress — A visual progress bar using [progress-bar.dev](https://progress-bar.dev)
+- 📈 Progress — A visual progress bar 
 
 ---
 
