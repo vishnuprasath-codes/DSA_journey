@@ -1,7 +1,5 @@
 ---
-
 ## 📊 DSA Progress Dashboard
-
 | Topic                  | ✅ Solved | 🔢 Total | 📈 Progress |
 |------------------------|:--------:|:--------:|:-----------:|
 | Arrays                 |    3     |   30     | ![10%](https://progress-bar.dev/10/) |
@@ -22,8 +20,6 @@
 | Heaps / Priority Queue |    0     |   10     | ![0%](https://progress-bar.dev/0/) |
 | Sorting                |    0     |   10     | ![0%](https://progress-bar.dev/0/) |
 | Others (Mix)           |    0     |   10     | ![0%](https://progress-bar.dev/0/) |
-
-
 ---
 
 ✅ **Tip**: Keep updating the count as you solve more problems.
