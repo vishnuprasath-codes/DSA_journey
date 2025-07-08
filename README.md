@@ -1,15 +1,7 @@
 # 📊 DSA Progress Tracker
 
-Welcome to my Data Structures & Algorithms (DSA) progress dashboard.  
-I aim to master all the core topics required for coding interviews and competitive programming.
+Data Structures & Algorithms (DSA) progress dashboard.  
 
----
-
-## 📅 Weekly Goal
-
-- 🔹 Solve 5–10 problems per week
-- 🔹 Build consistent problem-solving habits
-- 🔹 Go from brute-force to optimized thinking
 
 ---
 
