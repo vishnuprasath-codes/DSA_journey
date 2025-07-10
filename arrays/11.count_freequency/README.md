@@ -12,6 +12,7 @@
 
 
 🕒 Time Complexity  | **O(n)**|
+
 🧠 Space Complexity | **O(n)**| creating a freq array to store freequency
 
 ---
