@@ -10,23 +10,49 @@
 
 ---
 
+## ✍️ Notes
 
-🕒 Time Complexity  | **O(n)**|
-🧠 Space Complexity | **O(1)**|
+✅ 1. GFG Version – Two-Pointer Approach
+Code: Returns True or False (not indices)
+Why?:
+
+In GFG problems, the question often asks “Is there a pair?”, not which one.
+
+Sorting is allowed and doesn't affect the output.
+
+So, the two-pointer approach works well after sorting.
+
+Steps:
+
+Sort the array.
+
+Use two pointers (start, end) to find the pair.
+
+🕒 Time Complexity: O(n log n) (due to sorting)
+📦 Space Complexity: O(1) (no extra space)
 
 ---
 
-## ✍️ Notes
+✅ 2. LeetCode Version – Hashmap (Dictionary) Approach
+Code: Returns the indices of the two elements
+Why?:
 
-Given an array, arr of n integers, and an integer element x, find whether element x is present in the array. Return the index of the first occurrence of x in the array, or -1 if it doesn't exist.
+In LeetCode, the question is: "Return the indices of the elements that add to target."
 
-Examples:
+If we sort the array, the original indices will be lost.
 
-Input: arr[] = [1, 2, 3, 4], x = 3
+So we use a hashmap to store values and their original indices.
 
-Output: 2
+Steps:
 
-Explanation: There is one test case with array as [1, 2, 3 4] and element to be searched as 3. Since 3 is present at index 2, the output is 2.
+Loop through array.
+
+Store number and its index in a hashmap.
+
+Check if complement exists.
+
+🕒 Time Complexity: O(n)
+📦 Space Complexity: O(n) (for hashmap)
 
 
 ---
