@@ -1,28 +1,18 @@
 class Solution:
     def countTriplet(self, arr):
-        # Get the length of the array
-        n = len(arr)
+        # Initialize a counter to keep track of valid triplets
+        count = 0
+        n = len(arr)  # Get the length of the array
 
-        # Set to store unique triplets (a, b, c) such that a + b = c
-        # Using a set ensures duplicates are automatically avoided
-        triplets = set()
-
-        # Convert the array to a set for fast O(1) lookups when checking if a + b exists
-        values = set(arr)
-
-        # Iterate through all unique pairs (i, j) where i < j
+        # Iterate through all possible triplets using three nested loops
         for i in range(n):
             for j in range(i + 1, n):
-                a, b = arr[i], arr[j]        # Select pair of numbers
-                c = a + b                    # Calculate their sum
+                for k in range(j + 1, n):
+                    # Check if any two elements' sum is equal to the third
+                    if ((arr[i] + arr[j] == arr[k]) or 
+                        (arr[i] + arr[k] == arr[j]) or 
+                        (arr[j] + arr[k] == arr[i])):
+                        count += 1  # Valid triplet found, increment count
 
-                # Check if the sum exists in the array
-                if c in values:
-                    # Create a sorted triplet to avoid order-based duplicates like (1,2,3) and (2,1,3)
-                    triplet = tuple(sorted((a, b, c)))
-
-                    # Add the sorted triplet to the set
-                    triplets.add(triplet)
-
-        # Return the total number of unique valid triplets found
-        return len(triplets)
+        # Return the total count of such triplets
+        return count
